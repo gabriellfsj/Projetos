@@ -61,13 +61,12 @@ body {
   background-color: var(--line-border-fill);
   position: absolute;
   top: 50%;
+  left: 0;
   transform: translateY(-50%);
-  left:0;
   height: 4px;
-  width: 50%;
+  width: 0%;
   z-index: -1;
   transition: 0.4s ease;
-
 }
 
 .cprog{
@@ -85,7 +84,7 @@ body {
 
 }
 
-.cprog.ativo{
+.cprog.active{
 
   border-color: var(--line-border-fill);
 
@@ -119,7 +118,7 @@ body {
 .btn:disabled{
 
   background-color: var(--line-border-empty);
-  cursor: not-allowed;
+  //**cursor: not-allowed;**/
   
 }
 
